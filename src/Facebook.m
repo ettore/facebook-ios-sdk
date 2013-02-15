@@ -242,7 +242,7 @@ static NSString *const FBexpirationDatePropertyName = @"expirationDate";
       [params setObject:val forKey:[kv objectAtIndex:0]];
     }
 	}
-  return params;
+    return params;
 }
 
 - (void)updateSessionIfTokenUpdated {

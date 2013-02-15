@@ -694,19 +694,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		E54DEB241635EE240081ADF4 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "echo FB LIB PATH= ${BUILT_PRODUCTS_DIR}/lib${PRODUCT_NAME}.$EXECUTABLE_EXTENSION\ncp ${BUILT_PRODUCTS_DIR}/lib${PRODUCT_NAME}.$EXECUTABLE_EXTENSION ${BUILT_PRODUCTS_DIR}/..";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
